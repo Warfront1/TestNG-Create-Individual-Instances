@@ -1,6 +1,6 @@
-package test;
+package junit5Implementation;
 
-public class sampletest2 extends AbstractValidator2{
+public class sampletest2 extends AbstractValidator2 {
     public sampletest2(String url, acomplexclass a) {
         super(url, a);
     }

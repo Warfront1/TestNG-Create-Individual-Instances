@@ -1,10 +1,10 @@
-package test;
+package testngImplementation;
 
 import org.testng.annotations.Test;
 
-// This Approach doesn't let me leverage test ng that well as now the @Test annoation is on dummy methods, that provider
+// This Approach doesn't let me leverage testngImplementation ng that well as now the @Test annoation is on dummy methods, that provider
 // no value.... Other than creating an instance of tests and leveraging the old framework.
-// It is very easy to run test cases just click the run button
+// It is very easy to run testngImplementation cases just click the run button
 public class testCreationWorkAround1 {
     @Test
     public void sampletest2google(){

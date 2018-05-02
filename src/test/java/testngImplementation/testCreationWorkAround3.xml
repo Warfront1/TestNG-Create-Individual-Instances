@@ -3,18 +3,18 @@
     <test name="test1">
         <parameter name="testCase" value="google"/>
         <classes>
-            <class name="test.testCreationWorkAround3"/>
+            <class name="testngImplementation.testCreationWorkAround3"/>
         </classes>
     </test>
     <test name="test2">
         <parameter name="testCase" value="bing"/>
         <classes>
-            <class name="test.testCreationWorkAround3"/>
+            <class name="testngImplementation.testCreationWorkAround3"/>
         </classes>
     </test>
     <test name="alltests">
         <classes>
-            <class name="test.testCreationWorkAround3"/>
+            <class name="testngImplementation.testCreationWorkAround3"/>
         </classes>
     </test>
 </suite>

@@ -2,7 +2,7 @@
 <suite name="Suite1" verbose="1" parallel="tests" thread-count="5">
     <test name="test1">
         <classes>
-            <class name="test.testCreationWorkAround2"/>
+            <class name="testngImplementation.testCreationWorkAround2"/>
         </classes>
     </test>
 </suite>

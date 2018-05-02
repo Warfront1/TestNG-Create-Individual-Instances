@@ -1,13 +1,13 @@
-package test;
+package testngImplementation;
 
 import org.testng.annotations.Factory;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-// In order to have the ability to run individual test cases, I am forced to create an additional layer of mapping.
-// In this case you can see I have mapped test cases to strings, that must be provided via parameters.
+// In order to have the ability to run individual testngImplementation cases, I am forced to create an additional layer of mapping.
+// In this case you can see I have mapped testngImplementation cases to strings, that must be provided via parameters.
 // This also introduces (in my opinion) unnecessary  overhead of having to configure parameters in order to run
-// one off test cases. Also I couldn't tag individual test cases into test groups
+// one off testngImplementation cases. Also I couldn't tag individual testngImplementation cases into testngImplementation groups
 public class testCreationWorkAround3 {
 
     @Factory

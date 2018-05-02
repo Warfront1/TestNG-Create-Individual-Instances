@@ -23,6 +23,7 @@ hs_err_pid*
 
 #IntellijJunk
 .idea/*
+*.iml
 
 #CompiledJunk
 target/*

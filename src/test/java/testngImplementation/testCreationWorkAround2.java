@@ -1,4 +1,4 @@
-package test;
+package testngImplementation;
 
 // This approach allows me to integrate with testng closer, however you make a bunch of dummy classes.
 // Also it is easy to run from within intellij one off, just click the run button!
