@@ -6,7 +6,17 @@ public class sampletest2 extends AbstractValidator2 {
     }
     @Override
     public boolean validate() {
-        System.out.println("I'm running on sampleTest2 with url"+ url);
+        long t= System.currentTimeMillis();
+        long end = t+15000;
+        while(System.currentTimeMillis() < end) {
+            System.out.println("I'm running on sampleTest2 with url"+ url);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
         return true;
     }
 }

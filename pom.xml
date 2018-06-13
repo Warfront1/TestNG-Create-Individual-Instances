@@ -18,7 +18,12 @@
         <!--<junit.jupiter.version>5.2.0</junit.jupiter.version>-->
         <!--<junit.platform.version>1.2.0</junit.platform.version>-->
     </properties>
-
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <!--<dependency>-->
@@ -46,11 +51,16 @@
         <!--<scope>test</scope>-->
         <!--</dependency>-->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.2.0</version>
-            <scope>test</scope>
+            <groupId>com.github.junit-team</groupId>
+            <artifactId>junit5</artifactId>
+            <version>de69c49279c6a2f579c70276ddd03547fb46241e</version>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.junit.jupiter</groupId>-->
+            <!--<artifactId>junit-jupiter-engine</artifactId>-->
+            <!--<version>5.2.0</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -80,6 +90,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.21.0</version>
                 <configuration>
+                    <properties>
+                        <configurationParameters>
+                            junit.jupiter.execution.parallel.enabled=true
+                            junit.jupiter.execution.parallel.config.strategy=fixed
+                            junit.jupiter.execution.parallel.config.fixed.parallelism=2
+                        </configurationParameters>
+                    </properties>
                     <!--<forkCount>3</forkCount>-->
                     <!--<reuseForks>true</reuseForks>-->
                     <includes>
