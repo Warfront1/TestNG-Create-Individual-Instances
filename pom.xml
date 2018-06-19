@@ -51,8 +51,8 @@
         <!--<scope>test</scope>-->
         <!--</dependency>-->
         <dependency>
-            <groupId>com.github.junit-team</groupId>
-            <artifactId>junit5</artifactId>
+            <groupId>com.github.junit-team.junit5</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
             <version>de69c49279c6a2f579c70276ddd03547fb46241e</version>
         </dependency>
         <!--<dependency>-->
